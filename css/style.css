@@ -19,4 +19,9 @@
   height: 2px;
   background-color: black;
   margin-left: 0;
+} 
+.main-menu{
+  position: fixed !important;
+  width: 100%;
+  z-index: 111;
 }
