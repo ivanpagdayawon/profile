@@ -53,3 +53,21 @@
 .test6{
   color: black;
 }
+.offer{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 60px;
+  color: #60cdf3;
+}
+.support{
+  text-align: center;
+  font-size: 18px;
+}
+.hr7{
+  width: 150px;
+  height: 2px;
+  background-color: black;
+}
+.development{
+  text-align: center;
+}
