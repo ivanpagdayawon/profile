@@ -15,6 +15,7 @@
 .starting{
   margin-top: 100px;
   font-size: 18px;
+  animation-delay: 10000;
 }
 .hr{
   width: 150px;
@@ -70,4 +71,22 @@
 }
 .development{
   text-align: center;
+}
+.Desktop{
+  font-size: 30px;
+}
+.ivan0{
+  font-size: 20px;
+}
+.view23{
+  font-size: 20px;
+  background-color: #60cdf3;
+  color: white;
+  width: 20px;
+  height: 15px;
+  border-radius: 90px;
+}
+.me{
+  text-align: center;
+  width: 20px;
 }

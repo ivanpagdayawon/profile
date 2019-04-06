@@ -13,6 +13,7 @@
       <!-- Latest compiled JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
  </head>
 <body>
@@ -22,15 +23,15 @@
       <a class="navbar-brand" href="#">IVAN WEB</a>
     </div>
     <ul class="nav navbar-nav pull-right test3">
-      <li><a class="Home">Home</a></li>
-      <li><a class="Home">Services</a></li>
-      <li><a class="Home">Project</a></li>
-      <li><a class="Home">About</a></li>
-      <li><a class="Home">Contact Us</a></li>
+      <li><button onclick="myFunction()" class="Home" id="user">Home</button></li>
+      <li><a class="Home" id="user1">Services</a></li>
+      <li><a class="Home" id="user2">Project</a></li>
+      <li><a class="Home" id="user3">About</a></li>
+      <li><a class="Home" id="user4">Contact Us</a></li>
     </ul>
   </div>
 </nav>
-<div class="container start1">
+<div class="container start1" data-aos="fade-in">
   <div class="row start5">
     <div class="col-md-12 sentence">
       <h1 class="animated infinite headShake">Example</h1>
@@ -43,10 +44,10 @@
     </div>
   </div>
 </div>
-<div class="container starting">
+<div class="container starting " data-aos="fade-in">
   <div class="row">
     <div class="col-md-7 RESEARCH">
-      <p class="test">RESEARCH</p>
+      <p class="animated infinite headShake test">RESEARCH</p>
       <hr class="hr">
       <p>We find innovative software solutions with cutting edge & global standard of your Business, Industries & Institutions, We at CODEVISION deliver our competence to meet our Client's need at the least & minimum given timeframe, Immediately address your specific requirement & concern with thorough collaboration with our team optimising result without compromising functionality.</p>
     </div>
@@ -55,22 +56,22 @@
     </div>
   </div>
 </div>
-<div class="container starting">
+<div class="container starting" data-aos="fade-in">
   <div class="row">
     <div class="col-md-5">
       <img src="images/download (1).png">
     </div>
      <div class="col-md-7 RESEARCH">
-      <p class="test">DESIGN</p>
+       <p class="animated infinite headShake test">DESIGN</p>
       <hr class="hr">
       <p>We at CODEVISION acknowledge the importance of "first impresssion," with these in mind, our team lay down the matter on the table along with everyones idea and re-consider primarily of developing not just a highly advance software technologies but a beautiful, impressive head turning web & application design landscape.. " IF IT LOOKS GOOD IT MUST BE GOOD</p>
     </div>
   </div>
 </div>
-  <div class="container starting">
+  <div class="container starting" data-aos="fade-in">
     <div class="row">
       <div class="col-md-7 RESEARCH">
-        <p class="test">DEVELOP</p>
+         <p class="animated infinite headShake test">DEVELOP</p>
         <hr class="hr">
         <p>The Idea of building Software Application out from scratch of any kind is of huge challenge on our part, and here comes our years and years of experience as a team in that field help us to norrow that idea into one specific details and applications faster that will favorably leverage into minimal time and maximum output, giving our clients a better if not the best we can offer.. "INTEGRITY"</p>
       </div>
@@ -79,22 +80,22 @@
       </div>
     </div>
   </div>
-<div class="container starting">
+<div class="container starting" data-aos="fade-in">
   <div class="row">
     <div class="col-md-5">
       <img src="images/download.png">
     </div>
      <div class="col-md-7 RESEARCH">
-      <p class="test">LAUNCH</p>
+      <p class="animated infinite headShake test">LAUNCH</p>
       <hr class="hr">
       <p>Coping deadlines & meeting expectations is highly regarded though it may vary from time to time & from client to client depending on the scope of the project, we always make it to the point as our main goal... "COSTUMERS SATISFACTION".. giving them the best that they can get as our primary concern to deliver everything they ask for in an applications at a given time.. " OUR CLIENTS APPROVAL ARE IMPORTANT TO US"</p>
     </div>
   </div>
 </div>
-<div class="container starting">
+<div class="container starting" data-aos="fade-in">
     <div class="row">
       <div class="col-md-7 RESEARCH">
-        <p class="test">SUPPORT</p>
+         <p class="animated infinite headShake test">SUPPORT</p>
         <hr class="hr">
         <p>POST PROJECT- After the Software Applications has been launched, we understood the importance of our support staff to address different issues that may lie ahead during its operations, in view of these: We are trained to work hand in hand with our client in no time to provide the necesary assistance they need, Our expertise to cater technical support has been proven over the years.</p>
       </div>
@@ -103,14 +104,14 @@
       </div>
     </div>
 </div>
-<div>
+<div class="container" data-aos="fade-in">
     <div>
       <div class="standard">
-        <p>Your Standard,Our Procedure</p>
+        <p class="animated infinite headShake ">Your Standard,Our Procedure</p>
       </div>
     </div>
 </div> 
-<div>
+<div data-aos="fade-in">
     <div>
       <div class="offer">
         <p>What We Offer</p>
@@ -122,27 +123,56 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container" data-aos="fade-in">
     <div class="row development">
-      <div class="col-md-4">
-        <img src="images/images (2).jpg">
-        <p class="Desktop">Desktop Development</p>
-        <p>Solid grasp of programming, automated software, databases, development, and testing methodologies.</p>
-        <a href="">view</a>
-      </div>
-      <div class="col-md-4">
-        <img src="images/images (3).jpg">
-        <p>Web Development</p>
-        <p>Get custom-built websites, plugins, and themes, or optimization and support for existing Websites.</p>
-        <a href="">view</a>
-      </div>
-      <div class="col-md-4 development">
-        <img src="images/download (1).jpg">
-        <p>Mobile Development</p>
-        <p>Design and development native or cross-platform of mobile apps for iOS, Android, or Windows.s</p>
-        <a href="">view</a>
-      </div>
+      <div>
+        <div class="col-md-4">
+          <img src="images/images (3).jpg">
+          <p class="Desktop">Desktop Development</p>
+          <p  class="ivan0" >Solid grasp of programming, automated software, databases, development, and testing methodologies.</p>
+          <a href="https://www.google.com/" class="view23">view</a>
+        </div>
+        <div class="col-md-4">
+          <img src="images/images (3).jpg">
+          <p class="Desktop">Web Development</p>
+          <p  class="ivan0" >Get custom-built websites, plugins, and themes, or optimization and support for existing Websites.</p>
+          <a href="https://www.google.com/" class="view23">view</a>
+        </div>
+          <div class="col-md-4 development">
+          <img src="images/images (3).jpg">
+          <p class="Desktop">Mobile Development</p>
+          <p class="ivan0" >Design and development native or cross-platform of mobile apps for iOS, Android, or Windows.s</p>
+          <a href="https://www.google.com/" class="view23">view</a>
+        </div>
     </div>
   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 me">
+      <label for="usr">comment:</label>
+      <input type="text" class="form-control" id="usr" class="text-user">
+    </div>
+    <div class="col-md-4 me">
+      <label for="usr">comment:</label>
+      <input type="text" class="form-control" id="usr" class="text-user">
+    </div>
+    <div class="col-md-4 me">
+      <label for="usr">comment:</label>
+      <input type="text" class="form-control" id="usr" class="text-user">
+    </div>
+  </div>
+</div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js">
+    
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  
+
+
 </body>
+
 </html>
