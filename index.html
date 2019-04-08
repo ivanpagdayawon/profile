@@ -17,39 +17,32 @@
 
  </head>
 <body>
-<nav class="navbar navbar-default  main-menu">
-  <div class="container">
+ 
+</video>
+<nav class="navbar navbar-default  main-menu" >
+  <div class="container" id="ivan2">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">IVAN WEB</a>
+      <a class="navbar-brand " href="#">IVAN WEB</a>
     </div>
     <ul class="nav navbar-nav pull-right test3">
-      <li><button onclick="myFunction()" class="Home" id="user">Home</button></li>
-      <li><a class="Home" id="user1">Services</a></li>
-      <li><a class="Home" id="user2">Project</a></li>
-      <li><a class="Home" id="user3">About</a></li>
+      <li><a class="Home" id="user" href="#ivan30">Home</a></li>
+      <li><a class="Home" id="user1" href="#selection2">Services</a></li>
+      <li><a class="Home" id="user2" >Project</a></li>
+      <li><a class="Home" id="user3" href="about.html">About</a></li>
       <li><a class="Home" id="user4">Contact Us</a></li>
     </ul>
   </div>
 </nav>
-<div class="container start1" data-aos="fade-in">
-  <div class="row start5">
-    <div class="col-md-12 sentence">
-      <h1 class="animated infinite headShake">Example</h1>
-
-      <p class="test6"><b>CODEVISION</b>, another fine</p>
-      <p><b>Software Development Agency</b>.</p>
-      <p>You do your thing, which you’re good at, and we do our thing, which we are very good at</p>
-      <p>– making your Business system and applications with quality.</p>
-      <a href="https://www.google.com/" class="search1">Discover</a>
-    </div>
-  </div>
+<div class="video-container"  id="ivan30" >
+  <iframe  width="560" height="315" src="https://www.youtube.com/embed/sxZlqFLIwSc?autoplay=1&controls=0&loop=1&playlist=sxZlqFLIwSc&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<div class=" start1" data-aos="fade-in" >
 <div class="container starting " data-aos="fade-in">
   <div class="row">
-    <div class="col-md-7 RESEARCH">
+    <div class="col-md-7 RESEARCH" >
       <p class="animated infinite headShake test">RESEARCH</p>
       <hr class="hr">
-      <p>We find innovative software solutions with cutting edge & global standard of your Business, Industries & Institutions, We at CODEVISION deliver our competence to meet our Client's need at the least & minimum given timeframe, Immediately address your specific requirement & concern with thorough collaboration with our team optimising result without compromising functionality.</p>
+      <p id="test">We find innovative software solutions with cutting edge & global standard of your Business, Industries & Institutions, We at CODEVISION deliver our competence to meet our Client's need at the least & minimum given timeframe, Immediately address your specific requirement & concern with thorough collaboration with our team optimising result without compromising functionality.</p>
     </div>
     <div class="col-md-5">
       <img src="images/images (1).jpg">
@@ -61,7 +54,7 @@
     <div class="col-md-5">
       <img src="images/download (1).png">
     </div>
-     <div class="col-md-7 RESEARCH">
+     <div class="col-md-7 RESEARCH"  >
        <p class="animated infinite headShake test">DESIGN</p>
       <hr class="hr">
       <p>We at CODEVISION acknowledge the importance of "first impresssion," with these in mind, our team lay down the matter on the table along with everyones idea and re-consider primarily of developing not just a highly advance software technologies but a beautiful, impressive head turning web & application design landscape.. " IF IT LOOKS GOOD IT MUST BE GOOD</p>
@@ -114,11 +107,11 @@
 <div data-aos="fade-in">
     <div>
       <div class="offer">
-        <p>What We Offer</p>
+        <p id="selection2">What We Offer</p>
       </div>
       <hr class="hr7">
       <div class="support">
-        <p>We support and develop</p>
+        <p id="testing">We support and develop</p>
         <p>C, C#, C++, VB.Net, Java, Swift, Python, PHP, React, Node, WordPress, Drupal, Android, iOS, and Windows mobile apps.</p>
       </div>
     </div>
@@ -147,28 +140,26 @@
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 me">
-      <label for="usr">comment:</label>
-      <input type="text" class="form-control" id="usr" class="text-user">
-    </div>
-    <div class="col-md-4 me">
-      <label for="usr">comment:</label>
-      <input type="text" class="form-control" id="usr" class="text-user">
-    </div>
-    <div class="col-md-4 me">
-      <label for="usr">comment:</label>
-      <input type="text" class="form-control" id="usr" class="text-user">
-    </div>
-  </div>
-</div>
+
 
   <script src="https://unpkg.com/aos@next/dist/aos.js">
     
   </script>
   <script>
     AOS.init();
+  </script>
+  <script type="text/javascript">
+    var test=document.querySelector('#test')
+    var home=document.querySelector('#user1')
+    
+       var test1=document.querySelector('#What')   
+
+              
+          $("#What").scroll(function(){
+          $("span").text(x += 1);
+          });
+
+
   </script>
   
 
