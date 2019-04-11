@@ -9,21 +9,30 @@
   font-size: 25px;
   color: black;
 }
-.starting{
-  margin-top: 10px;
+.starting1{
+  margin-top: 30px ;
   font-size: 18px;
   animation-delay: 10000;
+   background-color: #f8f8f8;
+  padding: 90px;
+}
+.starting{
+  margin-top: 30px;
+  font-size: 18px;
+  animation-delay: 10000;
+  
 }
 .hr{
-  width: 150px;
+  width: 140px;
   height: 2px;
-  background-color: black;
-  margin-left: 10px;
+  margin-left: 2px;
 } 
 .main-menu{
   position: fixed !important;
   width: 100%;
   z-index: 111;
+  background-color: #ffffff !important;
+
 }
 .search1{
   background-color: #83c5e5;
@@ -34,9 +43,6 @@
   font-size: 30px;
   color: #13a7da;
   font-weight:100;
-
-
- 
 }
 .test3{
   font-size: 23px;
@@ -65,16 +71,16 @@
 .hr7{
   width: 150px;
   height: 2px;
-  background-color: black;
+  margin-left: 600px !important;
+  margin-top: 40px !important;
+
 }
 .development{
   text-align: center;
 }
 .Desktop{
   font-size: 30px;
-}
-.ivan0{
-  font-size: 20px;
+    color: #13a7da;
 }
 .view23{
   font-size: 20px;
@@ -110,4 +116,355 @@ html {
     left:0;
     width:100%;
     height:100%;
+}
+.about-us{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+
+  /* The image used */
+  background-image: url("../images/download (3).jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+  height: 500px;
+  padding: 200px;
+}
+
+#PHP{
+  height: 193px;
+}
+#me45{
+  font-size: 18px;
+}
+#desktop-transparent{
+  height: 200px;
+}
+.face{
+  width: 60px ;
+  height: 60px;
+  margin-left:130px; 
+  margin-top: 0px;
+  padding: 10px;
+}
+.gray{
+  background-color: #282a2b;
+  padding: 20px;
+  margin-top: 80px;
+}
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+  width:100%;
+  height:100%;
+  background:#fff;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+  display: none;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+
+.particles-js-canvas-el {
+  background-color: #2da7da;
+}
+.Specialize{
+  text-align: center;
+  font: inherit;
+  color: #13a7da;
+  font-size: 30px;
+  margin-top: 70px;
+}
+.owl{
+  margin-top: 70px;
+}
+#We-support{
+  color:#666666 !important;
+}
+#Development{
+  font-size: 18px;
+   margin-top: 20px;
+   color: #666666;
+}
+#imgimg{
+   height: 250px;
+}
+.facebook{
+  text-align: center;
+}
+.face{
+  font-size: 30px !important;
+  margin-right: 1px !important;
+  margin-left:1px !important; 
+  color: white !important;
+  margin-bottom: 30px !important;
+}
+.VISION{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: inherit;
+
+}
+#Home{
+  color:#666666 !important;
+}
+.PROJECTS-WEB{
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid #2da7da;
+  padding:10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 4px;
+
+}
+
+.PROJECTS-WEB:hover {
+  text-decoration: none;
+  background-color: #f8f8f8;
+
+}
+
+.PROJECTS{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#What-We-Offer{
+  margin: 20px !important ;
+}
+.project-img{
+  margin-top: 50px;
+  height: 300px;
+  width: 350px;
+}
+.project-word{
+  text-align: center;
+  color: #13a7da;
+    font-weight: 700;
+    font-size: 15px;
+}
+.team{
+  font-size: 30px;
+  color: #13a7da;
+  text-align: center;
+}
+.hr71{
+  width: 150px;
+  height: 2px;
+  margin-left: 500px !important;
+  margin-top: 30px !important;
+}
+.about-us1{
+  border-radius: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 190px;
+  width: 190px;
+}
+.names{
+  text-align: center;
+  color: #13a7da;
+  font-size: 25px;
+}
+.role{
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+.goal{
+  font-size: 30px;
+  color: #13a7da;
+  font-weight:100;
+  text-align: center;
+  margin-top: 90px;
+}
+.text{
+  text-align: center;
+  margin-right: 110px;
+  margin-left: 110px;
+  color: #666666;
+  font-size: 18px;
+}
+.goals{
+  background-color: #f8f8f8;
+  padding-top:20px;
+}
+.inputs[type=text] {
+    border: 1px solid #c3c3c3 ;
+    border-radius: 4px;  
+    height: 50px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.Form{
+  color:  #13a7da;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+
+
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 3;
+
+}
+
+textarea {
+   resize: none;
+   width: 500px;
+   height: 100px;
+   margin-left: 2px !important;
+   font-size:20px !important;
+   padding: 20px;
+}
+input[type=submit]{
+        -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    transition: background-color .2s ease-in-out,color .2s ease-in-out;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #13a7da;
+    color: #13a7da!important;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: 400;
+    height: 2.75em;
+    letter-spacing: .125em;
+    line-height: 2.75em;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    text-indent: .125em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+  }
+  .location{
+    font-size: 30px !important;
+    margin-top: 30px;
+    margin-bottom: 25px !important;
+    color: #13a7da;
+    margin-left: 20px;
+
+  }
+  .rizal{
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 0 !important;
+   
+   
+  }
+  .header{
+    height: 90px;
+    width: 160px;
+  }
+#user{
+ margin-top: 18px;
+ font-size: 18px;
+ background-color: #ffffff;
 }
